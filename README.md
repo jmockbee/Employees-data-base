@@ -10,3 +10,8 @@ No actual people used for this database . This is for testing purposes only
 
 
 ### Select Statements 
+
+-SELECT
+    dept_no
+FROM
+    departments;
