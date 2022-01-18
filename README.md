@@ -11,14 +11,34 @@ No actual people used for this database . This is for testing purposes only
 
 ### Select Statements 
 
+
 -SELECT
     dept_no
 FROM
     departments;
     
+    
+    
 -SELECT
     *
 FROM
     departments;
+    
+    
+    
+-SELECT
+    *
+FROM
+    employees
+WHERE
+    first_name = 'Kellie' AND gender = 'F';
+    
+    
+-SELECT
+    *
+FROM
+    employees
+WHERE
+    gender = 'F' AND (first_name = 'Kellie' OR first_name = 'Aruna');
     
  
