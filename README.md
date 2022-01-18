@@ -1,7 +1,8 @@
 # Employees-data-base
 No actual people used for this database . This is for testing purposes only 
-### Keyboard shortcuts to remember 
+### Keyboard shortcuts to remember etc... 
   ctrl+shift +enter   runs the query 
+  My SQl is case insensitive
 
 
 
@@ -48,5 +49,22 @@ FROM
     employees
 WHERE
     first_name NOT IN ('John' , 'Mark', 'Jacob');
+    
+    
+-select 
+* 
+From 
+employees
+where 
+first_name like ('%ark%');  allows for substitution of characters
+
+-select 
+* 
+From 
+employees
+where 
+first_name like ('Mar_');   allows you to match a single character
+
+   
     
  
