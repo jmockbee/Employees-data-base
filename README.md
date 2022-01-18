@@ -15,3 +15,10 @@ No actual people used for this database . This is for testing purposes only
     dept_no
 FROM
     departments;
+    
+-SELECT
+    *
+FROM
+    departments;
+    
+ 
