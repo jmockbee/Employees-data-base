@@ -3,4 +3,7 @@ SELECT
 FROM
     employees
 WHERE
-	last_name = 'Denis' and (gender = 'F' or gender = 'M');
+    gender = 'F'
+        AND (first_name = 'Kellie'
+        OR first_name = 'Aruna');
+    
