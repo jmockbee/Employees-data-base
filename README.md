@@ -41,4 +41,12 @@ FROM
 WHERE
     gender = 'F' AND (first_name = 'Kellie' OR first_name = 'Aruna');
     
+    
+-SELECT
+    *
+FROM
+    employees
+WHERE
+    first_name NOT IN ('John' , 'Mark', 'Jacob');
+    
  
