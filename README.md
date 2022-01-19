@@ -65,7 +65,7 @@ employees
 where 
 first_name like ('Mar_');   allows you to match a single character
 
-SELECT 
+-SELECT 
     *
 FROM
     employees
