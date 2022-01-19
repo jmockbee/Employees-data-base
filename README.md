@@ -65,6 +65,17 @@ employees
 where 
 first_name like ('Mar_');   allows you to match a single character
 
+SELECT 
+    *
+FROM
+    employees
+WHERE
+	emp_no like ('1000_');   will be 1000 with digits afterward 
+  
+  
+  
+  
+
    
     
  
