@@ -72,7 +72,12 @@ FROM
 WHERE
 	emp_no like ('1000_');   will be 1000 with digits afterward 
   
-  
+-SELECT 
+    *
+FROM
+    employees
+WHERE
+    emp_no NOT BETWEEN '1004' AND '10012'; will not include 1004 or 10012 
   
   
 
