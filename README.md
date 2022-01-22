@@ -85,9 +85,11 @@ FROM
     salaries
 WHERE
     salary >= 100000; 
-    
     utilizing from and where 
 
-   
-    
+ -SELECT 
+    COUNT(*)
+FROM
+    depart_manager;   counting department managers
+ 
  
