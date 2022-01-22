@@ -1,9 +1,25 @@
 # Employees-data-base
 No actual people used for this database . This is for testing purposes only 
-### Keyboard shortcuts to remember etc... 
+
+### Keyboard shortcuts to remember and other things etc... 
   ctrl+shift +enter   runs the query 
+  
   My SQl is case insensitive
 
+
+```
+
+SELECT column_name(s)
+
+FROM table_name
+
+WHERE conditions 
+
+GROUP BY column_name(s)
+
+ORDER BY column_name(s)
+
+```
 
 
 ### Creating New Table Commands 
