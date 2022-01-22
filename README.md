@@ -79,7 +79,14 @@ FROM
 WHERE
     emp_no NOT BETWEEN '1004' AND '10012'; will not include 1004 or 10012 
   
-  
+ - SELECT 
+    COUNT(*)
+FROM
+    salaries
+WHERE
+    salary >= 100000; 
+    
+    utilizing from and where 
 
    
     
