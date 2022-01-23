@@ -21,6 +21,8 @@ ORDER BY column_name(s)
 
 ```
 
+COUNT() is an aggregate function that you must use HAVING 
+
 
 ### Creating New Table Commands 
 
