@@ -15,6 +15,9 @@ WHERE conditions
 GROUP BY column_name(s)
 ORDER BY column_name(s)
 ```
+General conditions use WHERE
+
+
 **HALVING**
 ```
 SELECT column_name
