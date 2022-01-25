@@ -7,19 +7,24 @@ No actual people used for this database . This is for testing purposes only
   My SQl is case insensitive
 
 
+**GROUP BY** 
 ```
-
 SELECT column_name(s)
-
 FROM table_name
-
 WHERE conditions 
-
 GROUP BY column_name(s)
-
 ORDER BY column_name(s)
-
 ```
+**HALVING**
+```
+SELECT column_name
+FROM table_name
+WHERE conditions
+GROUP BY column_name
+HAVING ocnditions
+ORDER BY column_name 
+```
+
 
 COUNT() is an aggregate function that you must use HAVING 
 
