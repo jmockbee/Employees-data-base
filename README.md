@@ -120,6 +120,13 @@ FROM
  
  ### Insert and Update 
  
+ UPDATE table_name
+ set column_1 = value_1, column_2 =  value_2 
+ WHERE conditions;
+ if you do not provide a where condition all the rows of a table will be updated 
+ 
+ 
+ 
 -insert into	employees
     (
 		emp_no,
