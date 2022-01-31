@@ -118,4 +118,28 @@ WHERE
 FROM
     depart_manager;   counting department managers
  
+ ### Insert and Update 
  
+-insert into	employees
+    (
+		emp_no,
+        birth_date,
+        first_name,
+        last_name,
+        gender,
+        hire_date
+        )
+	values (  values go here   );
+	
+-UPDATE employees 
+SET 
+    first_name = 'Stella',
+    last_name = 'Parkinson',
+    birth_date = '1990-12-31',
+    gender = 'F'
+WHERE
+    emp_no = 999901;
+    
+    
+	
+	
