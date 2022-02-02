@@ -11,4 +11,4 @@ SET
     dept_no = 'd011',
     dept_name = 'Quality_Control';
  
-rollback;
+rollback;departments_dup
