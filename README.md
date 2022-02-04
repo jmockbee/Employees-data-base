@@ -148,5 +148,10 @@ WHERE
     emp_no = 999901;
     
     
-	
-	
+### If Null and Coalesce
+- if null cannot contain more than two parameters 
+select 
+dept_no,
+ifnull (dept_name, 'department name not provided') as dept_name
+from 
+departments_dup;
