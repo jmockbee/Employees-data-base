@@ -155,3 +155,11 @@ dept_no,
 ifnull (dept_name, 'department name not provided') as dept_name
 from 
 departments_dup;
+- Coalesce can set up hypothetical colums for your table 
+select 
+dept_no,
+dept_name,
+coalesce ('department manager name' ) as fake_col
+
+from 
+departments_dup;
