@@ -3,4 +3,5 @@ SELECT
 FROM
     employees e
         JOIN
-    dept_manager d ON e.emp_no = d.emp_no;
+    dept_manager d ON e.emp_no = d.emp_no
+    group by emp_no;
