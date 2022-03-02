@@ -2,11 +2,7 @@
 No actual people used for this database . This is for testing purposes only 
 
 ### Keyboard shortcuts to remember and other things etc... 
-  ctrl+shift +enter   runs the query 
-  
-  My SQl is case insensitive
-
-
+ 
 **GROUP BY** 
 ```
 SELECT column_name(s)
@@ -163,3 +159,16 @@ coalesce ('department manager name' ) as fake_col
 
 from 
 departments_dup;
+
+
+### Subquries remeber the parenthesis
+SELECT 
+    e.first_name, e.last_name
+FROM
+    employees e
+WHERE
+    e.emp_no IN (SELECT 
+            dm.emp_no
+        FROM
+            dept_manager dm);
+
